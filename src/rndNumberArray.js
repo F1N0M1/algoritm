@@ -1,6 +1,6 @@
 const rndNumberArray = [];
-
-for (let i = 0; i < 10000; i++) {
+const length = 10;
+for (let i = 0; i < length; i++) {
   rndNumber = Math.floor((Math.random() * 1000));
   rndNumberArray[i] = rndNumber;
 }
